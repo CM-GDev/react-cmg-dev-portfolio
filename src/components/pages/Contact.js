@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 export default function Contact() {
   return (
     <main className='container'>
       <h3 className="blue-text text-darken-1">Contact</h3>
-      <form className="col s12 grey lighten-4 card-panel">
+      <form className="col s12 card-panel light-green lighten-5">
         <div className="row">
             <div className="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
@@ -31,7 +32,7 @@ export default function Contact() {
         </div>
         <div className="row">
             <div className="input-field col s12">
-                <button className="btn waves-effect waves-light disabled" type="submit" name="action">Submit</button>
+                <a className="btn waves-effect waves-light disabled" type="submit" name="action">Submit</a>
             </div>
         </div>
       </form>
