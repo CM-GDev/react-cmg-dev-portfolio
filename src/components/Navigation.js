@@ -48,28 +48,20 @@ function Navigation({ currentPage, handlePageChange }) {
                 <h3 className='brand-logo flow-text truncate' style={styles.h3}>Cristobal Marquez-Glynn</h3>
                 <a href='#' data-target="mobile-demo" className='sidenav-trigger'><i className='material-icons'>menu</i></a>
                 <ul className="right hide-on-med-and-down">
-                    <li>
-                        <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')}
-                        className={currentPage === 'AboutMe' ? 'active' : ''}
-                        >About Me<i className='material-icons right'>person</i>
+                    <li className={currentPage === 'AboutMe' ? 'active' : ''}>
+                        <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')}>About Me<i className='material-icons right'>person</i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#Portfolio" onClick={() => handlePageChange('Portfolio')}
-                        className={currentPage === 'Portfolio' ? 'active' : ''}
-                        >Portfolio<i className='material-icons right'>work</i>
+                    <li className={currentPage === 'Portfolio' ? 'active' : ''}>
+                        <a href="#Portfolio" onClick={() => handlePageChange('Portfolio')}>Portfolio<i className='material-icons right'>work</i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#Contact" onClick={() => handlePageChange('Contact')}
-                        className={currentPage === 'Contact' ? 'active' : ''}
-                        >Contact<i className='material-icons right'>contact_mail</i>
+                    <li className={currentPage === 'Contact' ? 'active' : ''}>
+                        <a href="#Contact" onClick={() => handlePageChange('Contact')}>Contact<i className='material-icons right'>contact_mail</i>
                         </a>
                     </li>
-                    <li>
-                        <a href="#Resume" onClick={() => handlePageChange('Resume')}
-                        className={currentPage === 'Resume' ? 'active' : ''}
-                        >Resume<i className='material-icons right'>description</i>
+                    <li className={currentPage === 'Resume' ? 'active' : ''}>
+                        <a href="#Resume" onClick={() => handlePageChange('Resume')}>Resume<i className='material-icons right'>description</i>
                         </a>
                     </li>
                 </ul>

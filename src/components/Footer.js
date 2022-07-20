@@ -2,7 +2,8 @@ import React from 'react';
 
 const styles = {
     btn: {
-        minWidth: '150px'
+        minWidth: '150px',
+        marginTop: '5px'
     }
 }
 

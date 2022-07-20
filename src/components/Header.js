@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <div>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* {renderPage()} */}
+      {renderPage()}
     </div>
   );
 }
