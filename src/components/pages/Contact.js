@@ -8,7 +8,7 @@ export default function Contact() {
         <div className="row">
             <div className="input-field col s12">
                 <i class="material-icons prefix">account_circle</i>
-                <input id="name" type="text" className="validate" required='' aria-required="true"/>
+                <input id="name" type="text" className="validate" required='true'/>
                 <label for="name">Name:</label>
                 <span class="helper-text" data-error="Required Field" data-success="That's a cool name">This Field is Required</span>
             </div>
@@ -16,15 +16,15 @@ export default function Contact() {
         <div className="row">
             <div className="input-field col s12">
                 <i class="material-icons prefix">email</i>
-                <input id="email" type="email" className="validate"/>
+                <input id="email" type="email" className="validate" required='true'/>
                 <label for="email">Email:</label>
-                <span class="helper-text" data-error="invalid email" data-success="right">Helper text</span>
+                <span class="helper-text" data-error="invalid email" data-success="right">This Field is Required</span>
             </div>
         </div>
         <div className="row">
             <div className="input-field col s12">
                 <i className="material-icons prefix">mode_edit</i>
-                <textarea id="icon_prefix2" className="materialize-textarea validate"></textarea>
+                <textarea id="icon_prefix2" className="materialize-textarea validate" required='true'></textarea>
                 <label for="icon_prefix2">Message</label>
                 <span class="helper-text" data-error="Required Field" data-success="right">This Field is Required</span>
             </div>
