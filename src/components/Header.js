@@ -5,7 +5,7 @@ import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
-export default function Header() {
+const Header = () => {
   const [currentPage, setCurrentPage] = useState('AboutMe');
 
   const renderPage = () => {
@@ -15,10 +15,10 @@ export default function Header() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Resume') {
-      return <Resume />;
+    if (currentPage === 'Contact') {
+      return <Contact />;
     }
-    return <Contact />;
+    return <Resume />;
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -26,7 +26,9 @@ export default function Header() {
   return (
     <div>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {renderPage()}
+      {/* {renderPage()} */}
     </div>
   );
 }
+
+export default Header;
