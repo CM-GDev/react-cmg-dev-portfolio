@@ -28,6 +28,7 @@ const styles = {
         borderRadius: '20px'
     }
 }
+
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function Navigation({ currentPage, handlePageChange }) {
@@ -74,15 +75,19 @@ function Navigation({ currentPage, handlePageChange }) {
                 </a>
             </li>
             <li>
-                <a href="#Work">Work<i className="material-icons right">public</i>
+                <a href="#" onClick={() => handlePageChange('Portfolio')}
+                className={currentPage === 'Portfolio' ? 'active' : ''}>Portfolio<i className="material-icons right">work</i>
                 </a>
             </li>
             <li>
-                <a href="#ContactMe">Contact Me<i className="material-icons right">chat</i>
+                <a href="#" onClick={() => handlePageChange('Contact')}
+                className={currentPage === 'Contact' ? 'active' : ''}>Contact<i className="material-icons right">contact_mail</i>
                 </a>
             </li>
             <li>
-                <a href="./assets/images/Resume - WebDev2022.pdf" target="blank">Resume<i className="material-icons right">open_in_new</i>
+                <a href="#" onClick={() => handlePageChange('Resume')}
+                className={currentPage === 'Resume' ? 'active' : ''}
+                >Resume<i className='material-icons right'>description</i>
                 </a>
             </li>
         </ul>
