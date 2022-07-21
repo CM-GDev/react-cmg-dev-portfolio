@@ -4,6 +4,13 @@ import Contact from './pages/Contact';
 import AboutMe from './pages/AboutMe';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+import '../index.css'
+
+const styles = {
+    paddingForFooter: {
+        paddingBottom: "100px"
+    }
+}
 
 const Header = () => {
   const [currentPage, setCurrentPage] = useState('AboutMe');
@@ -24,7 +31,7 @@ const Header = () => {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div>
+    <div style={styles.paddingForFooter}>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
     </div>
