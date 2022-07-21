@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/react-cmg-dev-portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/react-cmg-dev-portfolio/static/js/main.20ab1d1d.js",
+    "main.js": "/react-cmg-dev-portfolio/static/js/main.046c0c3b.js",
     "static/js/787.5f7277bf.chunk.js": "/react-cmg-dev-portfolio/static/js/787.5f7277bf.chunk.js",
+    "static/media/beach.jpg": "/react-cmg-dev-portfolio/static/media/beach.78176b16fec22248efe5.jpg",
+    "static/media/Resume.pdf": "/react-cmg-dev-portfolio/static/media/Resume.27632a0d56c9462f533d.pdf",
+    "static/media/resume.JPG": "/react-cmg-dev-portfolio/static/media/resume.5444537c59ceb68b868d.JPG",
+    "static/media/geoLocator.png": "/react-cmg-dev-portfolio/static/media/geoLocator.010e06b302aa0b8d7fc2.png",
+    "static/media/knickKnack.JPG": "/react-cmg-dev-portfolio/static/media/knickKnack.eca51803c766a8420978.JPG",
+    "static/media/sequelizeORM.JPG": "/react-cmg-dev-portfolio/static/media/sequelizeORM.0617c0c2dcfd5252c73c.JPG",
+    "static/media/weather.JPG": "/react-cmg-dev-portfolio/static/media/weather.3f310c3b8840b82a4a65.JPG",
+    "static/media/techBlog.JPG": "/react-cmg-dev-portfolio/static/media/techBlog.f673888687a2a77939d3.JPG",
     "index.html": "/react-cmg-dev-portfolio/index.html",
-    "main.073c9b0a.css.map": "/react-cmg-dev-portfolio/static/css/main.073c9b0a.css.map",
-    "main.20ab1d1d.js.map": "/react-cmg-dev-portfolio/static/js/main.20ab1d1d.js.map",
+    "main.046c0c3b.js.map": "/react-cmg-dev-portfolio/static/js/main.046c0c3b.js.map",
     "787.5f7277bf.chunk.js.map": "/react-cmg-dev-portfolio/static/js/787.5f7277bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.20ab1d1d.js"
+    "static/js/main.046c0c3b.js"
   ]
 }
