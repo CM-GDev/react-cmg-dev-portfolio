@@ -9,8 +9,7 @@
   The following screenshots demonstrate how the application appears in two different screen sizes.   
 
   ![desktop](./src/img/homePage.JPG)  
-  ![small](./src/img/responsivePage.JPG)
-   
+  ![small](./src/img/responsivePage.JPG)  
    
   ## Table of Contents
    
