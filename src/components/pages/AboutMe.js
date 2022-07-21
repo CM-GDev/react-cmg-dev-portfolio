@@ -1,5 +1,7 @@
+// importing react
 import React from 'react';
 
+// exporting react component
 export default function AboutMe() {
   return (
     <main className='container'>

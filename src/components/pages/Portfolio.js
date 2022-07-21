@@ -1,3 +1,4 @@
+// importing react and images
 import React from 'react';
 import Project from '../Project';
 import Card1 from '../../img/techBlog.JPG';
@@ -7,6 +8,7 @@ import Card4 from '../../img/PWA.JPG';
 import Card5 from '../../img/geoLocator.png';
 import Card6 from '../../img/weather.JPG';
 
+// establishing variables to use in react component
 const cardTitle1 = 'CMG Tech Blog';
 const cardTitle2 = 'KnickKnack Job Board';
 const cardTitle3 = 'Sequelize ORM';
@@ -35,6 +37,7 @@ const description4 = "This is my first progressive web application, PWA. It's a 
 const description5 = "This was my first group project for the course. Four other team members and myself created a webpage that uses two APIs to [1] Retrieve and display the user's IP address information, using FreeGeoIpAPI and [2] Use the Teleport API, to retrieve and display quality of life scores for cities from the Teleport database. Once the webpage provides the user's IP adress information, it detects the nearest Teleport city to the user's location and provides relevant quality of life scores for that city. The webpage also has a search bar for the user to retrieve quality of life scores for other cities from around the world!";
 const description6 = "In this homework assignment, I implemented the use of a third-party API for the first time. As the name suggests, the webpage retrieves and displays weather forcast for any US city searched by the user. The webpage also has a search history area for the user to use.";
 
+// exporting react component
 export default function AboutMe() {
   return (
     <main className='container'>

@@ -1,12 +1,14 @@
+// importing react
 import React from 'react';
 
+// establishing some style variables
 const styles = {
     btn: {
         minWidth: '150px',
         marginTop: '5px'
     }
 }
-
+// exporting react component
 export default function Footer () {
     return (
         <footer className="page-footer blue lighten-2">

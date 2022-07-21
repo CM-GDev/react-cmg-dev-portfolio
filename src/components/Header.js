@@ -1,3 +1,4 @@
+// importing react, react components and main css file
 import React, { useState } from 'react';
 import Navigation from './Navigation';
 import Contact from './pages/Contact';
@@ -6,9 +7,10 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 import '../index.css'
 
+// adding padding so footer displays properly
 const styles = {
     paddingForFooter: {
-        paddingBottom: "100px"
+        paddingBottom: "135px"
     }
 }
 
@@ -37,5 +39,5 @@ const Header = () => {
     </div>
   );
 }
-
+// exporting react component
 export default Header;

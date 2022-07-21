@@ -1,8 +1,10 @@
+// importing react, react components and materialize css variable
 import React, {useEffect} from 'react';
 import Background from '../img/beach.jpg';
 import ProfilePic from '../img/Picture.jpg';
 import M from "materialize-css/dist/js/materialize.min.js";
 
+// establishing some style variables
 const styles = {
     navigation: {
         paddingBottom: "10px",
@@ -101,5 +103,5 @@ function Navigation({ currentPage, handlePageChange }) {
     </div>
   );
 }
-
+// exporting react component
 export default Navigation;

@@ -1,7 +1,9 @@
+// importing react and other files
 import React from 'react';
 import Resume from '../../img/Resume.pdf';
 import resumepic from '../../img/resume.JPG'
 
+// exporting react component
 export default function AboutMe() {
   return (
     <main className='container'>

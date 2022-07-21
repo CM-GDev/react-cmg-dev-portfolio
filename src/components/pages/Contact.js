@@ -1,6 +1,7 @@
+// importing react
 import React from 'react';
 
-
+// exporting react component
 export default function Contact() {
   return (
     <main className='container'>

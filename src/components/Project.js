@@ -1,5 +1,7 @@
+// importing react
 import React from 'react';
 
+// exporting react component
 export default function Project(props) {
   return (
     <div class="card small hoverable col s12 m6">
