@@ -8,7 +8,7 @@ export default function AboutMe() {
       <h3 className="blue-text text-darken-1">Resume</h3>
       <a className="btn waves-effect waves-light blue darken-1" href={Resume} target="blank">Download Resume<i className='material-icons right'>description</i></a>
       <article className="col s12 light-green lighten-5 card-panel center-align">
-        <img src={resumepic}/>
+        <img src={resumepic} alt="Resume" />
       </article>
     </main>
   );

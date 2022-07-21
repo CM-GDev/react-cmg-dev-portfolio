@@ -4,7 +4,7 @@ export default function Project(props) {
   return (
     <div class="card small hoverable col s12 m6">
         <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src={props.image}/>
+            <img class="activator" src={props.image} alt="Card"/>
         </div>
         <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">{props.title}<i class="material-icons right">more_vert</i></span>
