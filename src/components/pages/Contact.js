@@ -34,6 +34,9 @@ export default function Contact() {
             <div className="input-field col s12">
                 <a className="btn waves-effect waves-light disabled" type="submit" name="action">Submit</a>
             </div>
+            <div>
+                <p> <em>Submit Feature Coming Soon</em></p>
+            </div>
         </div>
       </form>
       
