@@ -5,7 +5,7 @@ import React from 'react';
 export default function Contact() {
   return (
     <main className='container'>
-      <h3 className="blue-text text-darken-1">Contact</h3>
+      <h3 className="blue-text text-darken-1">Contact</h3> <h5 className="blue-text text-darken-1">Email me at: <a href='mailto:cristobalmqz@gmail.com' target={'blank'}> cristobalmqz@gmail.com </a></h5>
       <form className="col s12 card-panel light-green lighten-5">
         <div className="row">
             <div className="input-field col s12">
