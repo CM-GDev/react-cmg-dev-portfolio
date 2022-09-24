@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cmg-dev-portfolio/static/css/main.d7124808.css",
-    "main.js": "/react-cmg-dev-portfolio/static/js/main.09b80ad3.js",
+    "main.js": "/react-cmg-dev-portfolio/static/js/main.94c68afe.js",
     "static/js/787.5f7277bf.chunk.js": "/react-cmg-dev-portfolio/static/js/787.5f7277bf.chunk.js",
     "static/media/myway1.gif": "/react-cmg-dev-portfolio/static/media/myway1.8ddc800dfbdc732b6038.gif",
     "static/media/giphy1.gif": "/react-cmg-dev-portfolio/static/media/giphy1.d0b46455e8fefb868c7e.gif",
@@ -10,16 +10,16 @@
     "static/media/geoLocator.png": "/react-cmg-dev-portfolio/static/media/geoLocator.010e06b302aa0b8d7fc2.png",
     "static/media/knickKnack.JPG": "/react-cmg-dev-portfolio/static/media/knickKnack.eca51803c766a8420978.JPG",
     "static/media/sequelizeORM.JPG": "/react-cmg-dev-portfolio/static/media/sequelizeORM.0617c0c2dcfd5252c73c.JPG",
-    "static/media/ResumeWebDev2022.pdf": "/react-cmg-dev-portfolio/static/media/ResumeWebDev2022.05c018259e4cfa063343.pdf",
+    "static/media/ResumeWebDev2022.pdf": "/react-cmg-dev-portfolio/static/media/ResumeWebDev2022.542979729ce0543aecab.pdf",
     "static/media/techBlog.JPG": "/react-cmg-dev-portfolio/static/media/techBlog.f673888687a2a77939d3.JPG",
     "static/media/PWA.JPG": "/react-cmg-dev-portfolio/static/media/PWA.d11322c54b7825d89ffb.JPG",
     "index.html": "/react-cmg-dev-portfolio/index.html",
     "main.d7124808.css.map": "/react-cmg-dev-portfolio/static/css/main.d7124808.css.map",
-    "main.09b80ad3.js.map": "/react-cmg-dev-portfolio/static/js/main.09b80ad3.js.map",
+    "main.94c68afe.js.map": "/react-cmg-dev-portfolio/static/js/main.94c68afe.js.map",
     "787.5f7277bf.chunk.js.map": "/react-cmg-dev-portfolio/static/js/787.5f7277bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7124808.css",
-    "static/js/main.09b80ad3.js"
+    "static/js/main.94c68afe.js"
   ]
 }
