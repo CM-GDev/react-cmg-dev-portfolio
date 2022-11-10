@@ -1,6 +1,6 @@
 // importing react and other files
 import React from 'react';
-import Resume from '../../img/ResumeWebDev2022.pdf';
+import Resume from '../../img/ResumeWebDev2022CB.pdf';
 import resumepic from '../../img/resume.JPG'
 
 // exporting react component
