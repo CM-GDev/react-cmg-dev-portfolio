@@ -44,7 +44,7 @@ const description7 = "This was my first group project for the course. Four other
 
 
 // exporting react component
-export default function AboutMe() {
+export default function Portfolio() {
   return (
     <main className='container'>
       <h3 className="blue-text text-darken-1">Portfolio</h3>

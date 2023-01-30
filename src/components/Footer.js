@@ -21,7 +21,7 @@ export default function Footer () {
                         <a className="waves-effect waves-light btn blue darken-1" href="https://www.linkedin.com/in/cristobal-marquez-glynn-engineer/" target="blank" style={styles.btn}>LinkedIn</a>
                     </div>
                 </div>
-                © 2022 Cristobal Marquez-Glynn
+                © 2023 Cristobal Marquez-Glynn
             </div>
         </footer>
     )
