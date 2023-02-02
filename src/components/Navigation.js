@@ -2,7 +2,7 @@
 import React, {useEffect} from 'react';
 import Background from '../img/beach.jpg';
 import ProfilePic from '../img/Picture.jpg';
-import M from "materialize-css/dist/js/materialize.min.js";
+import M from "materialize-css";
 
 // establishing some style variables
 const styles = {
@@ -38,8 +38,8 @@ function Navigation({ currentPage, handlePageChange }) {
 
     // employing useEffect for side nav
     useEffect(() => {
-        var sidenav = document.querySelectorAll(".sidenav");
-        M.Sidenav.init(sidenav, {});
+        var elems = document.querySelectorAll(".sidenav");
+        M.Sidenav.init(elems, {});
     }, []);
 
   return (
@@ -48,7 +48,7 @@ function Navigation({ currentPage, handlePageChange }) {
         <nav className='blue lighten-2 nav-extended' style={styles.navigation}>
             <div className='nav-wrapper'>
                 <h3 className='brand-logo flow-text truncate' style={styles.h3}>Cristobal Marquez-Glynn</h3>
-                <a href='#' data-target="mobile-demo" className='sidenav-trigger'><i className='material-icons'>menu</i></a>
+                <a href='#!' data-target="side-out" className='sidenav-trigger'><i className='material-icons'>menu</i></a>
                 <ul className="right hide-on-med-and-down">
                     <li className={currentPage === 'AboutMe' ? 'active' : ''}>
                         <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')}>About Me<i className='material-icons right'>person</i>
@@ -70,7 +70,7 @@ function Navigation({ currentPage, handlePageChange }) {
             </div>
         </nav>
         {/* Code for side nav when screen is small */}
-        <ul className="sidenav" id="mobile-demo">
+        <ul className="sidenav" id="side-out">
             <li>
                 <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')}
                 className={currentPage === 'AboutMe' ? 'active' : ''}>About Me<i className="material-icons right">person</i>
