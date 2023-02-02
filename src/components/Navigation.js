@@ -73,23 +73,22 @@ function Navigation({ currentPage, handlePageChange }) {
         <ul className="sidenav" id="side-out">
             <li>
                 <a href="#AboutMe" onClick={() => handlePageChange('AboutMe')}
-                className={currentPage === 'AboutMe' ? 'active' : ''}>About Me<i className="material-icons right">person</i>
+                className={`sidenav-close ${currentPage === 'AboutMe' ? 'active' : ''}`}>About Me<i className="material-icons right">person</i>
                 </a>
             </li>
             <li>
                 <a href="#Portfolio" onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'active' : ''}>Portfolio<i className="material-icons right">work</i>
+                className={`sidenav-close ${currentPage === 'Portfolio' ? 'active' : ''}`}>Portfolio<i className="material-icons right">work</i>
                 </a>
             </li>
             <li>
                 <a href="#Contact" onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'active' : ''}>Contact<i className="material-icons right">contact_mail</i>
+                className={`sidenav-close ${currentPage === 'Contact' ? 'active' : ''}`}>Contact<i className="material-icons right">contact_mail</i>
                 </a>
             </li>
             <li>
                 <a href="#Resume" onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'active' : ''}
-                >Resume<i className='material-icons right'>description</i>
+                className={`sidenav-close ${currentPage === 'Resume' ? 'active' : ''}`}>Resume<i className='material-icons right'>description</i>
                 </a>
             </li>
         </ul>
