@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-cmg-dev-portfolio/static/css/main.d7124808.css",
-    "main.js": "/react-cmg-dev-portfolio/static/js/main.c228dbcb.js",
+    "main.js": "/react-cmg-dev-portfolio/static/js/main.439aaa8d.js",
     "static/js/787.5f7277bf.chunk.js": "/react-cmg-dev-portfolio/static/js/787.5f7277bf.chunk.js",
     "static/media/myway1.gif": "/react-cmg-dev-portfolio/static/media/myway1.8ddc800dfbdc732b6038.gif",
     "static/media/giphy1.gif": "/react-cmg-dev-portfolio/static/media/giphy1.d0b46455e8fefb868c7e.gif",
@@ -14,11 +14,11 @@
     "static/media/PWA.JPG": "/react-cmg-dev-portfolio/static/media/PWA.d11322c54b7825d89ffb.JPG",
     "index.html": "/react-cmg-dev-portfolio/index.html",
     "main.d7124808.css.map": "/react-cmg-dev-portfolio/static/css/main.d7124808.css.map",
-    "main.c228dbcb.js.map": "/react-cmg-dev-portfolio/static/js/main.c228dbcb.js.map",
+    "main.439aaa8d.js.map": "/react-cmg-dev-portfolio/static/js/main.439aaa8d.js.map",
     "787.5f7277bf.chunk.js.map": "/react-cmg-dev-portfolio/static/js/787.5f7277bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7124808.css",
-    "static/js/main.c228dbcb.js"
+    "static/js/main.439aaa8d.js"
   ]
 }
