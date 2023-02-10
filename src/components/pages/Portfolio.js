@@ -19,7 +19,7 @@ const cardTitle6 = 'Offline Notes';
 const cardTitle7 = 'Quality of LIfe Scores';
 
 const deployHref1 = "https://driveway-myway.herokuapp.com/";
-const deployHref2 = "https://arcane-citadel-66789.herokuapp.com/";
+const deployHref2 = "https://cm-gdev-books.herokuapp.com/";
 const deployHref3 = "https://cryptic-castle-82513.herokuapp.com/";
 const deployHref4 = "https://shrouded-brook-37959.herokuapp.com/";
 const deployHref5 = "https://www.youtube.com/watch?v=5AhxBuj-x-o";
